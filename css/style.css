@@ -1,0 +1,74 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.image-flex{
+		text-align:center;
+		display:flex;	
+		flex-wrap:wrap;
+		align-items:center;
+		justify-content:space-between;
+}
+.container{
+		width:85%;
+		margin:auto;
+}
+.image-flex img{
+	width:100%;
+	margin:2% 0 2% 0;
+}
+.imgwidth{
+	width:32%;
+}
+.img-1 img{
+			width:100%;
+			filter:grayscale(100%);
+}
+.img-2 img{
+		width:100%;
+		filter:brightness(80%);
+}
+.img-3 img{
+		width:100%;
+		filter:opacity(1);
+}
+.img-4 img{
+		width:100%;
+		filter:drop-shadow(16px 18px 15px  rgba(255,0,255,0.5));
+}
+.img-5 img{
+		width:100%;
+		filter:sepia(70%);
+}
+.img-6 img{
+		width:100%;
+		filter:blur(10px);
+}
+.img-7 img{
+		width:100%;
+		filter:invert(60%);
+}
+.img-8 img{
+		width:100%;
+		filter:hue-rotate(55deg);
+}
+.img-9 img{
+		width:100%;
+		filter:saturate(200%);				/* saturate(0)  Completely unsaturated
+											saturate(.4)    40% saturated 
+											saturate(100%)  No effect 
+											saturate(200%)  Double exposure */
+}
+.img-10 img{
+		width:100%;
+		filter:contrast(80%);
+}
+.img-11 img{
+		width:100%;
+		filter:none;
+}
+.img-12 img{
+		width:100%;
+		filter:url();
+}
